@@ -30,7 +30,7 @@ public class Calculate {
     }
     int hoge = 0;
     for (int i = x; i <= y; i++) {
-      if(i % 2 == 0)
+      if(i % 2 == 1)
         hoge += i;
     }
     return hoge;
@@ -44,7 +44,7 @@ public class Calculate {
     }
     int hoge = 0;
     for (int i = x; i <= y; i++) {
-      if (i % 2 == 1)
+      if (i % 2 == 0)
         hoge += i;
     }
     return hoge;

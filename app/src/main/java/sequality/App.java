@@ -17,6 +17,6 @@ public class App {
           .println(
               "Sum of 1 to 10 is " + Sum.atoz(1, 10) + ". Average is " + Sum.ave((double)Sum.atoz(1, 10), 10.0));
       System.out
-          .println("Sum of odd of 1 to 10 " + Sum.odd(1, 10) + ". Sum of even is " + Sum.even(1,10));
+          .println("Sum of odd of 1 to 10 is " + Sum.odd(1, 10) + ". Sum of even is " + Sum.even(1,10));
     }
 }
