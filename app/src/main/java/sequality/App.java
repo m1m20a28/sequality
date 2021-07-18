@@ -9,6 +9,14 @@ public class App {
     }
 
     public static void main(String[] args) {
-        System.out.println(new App().getGreeting());
+      System.out.println(new App().getGreeting());
+      Calculate Sum = new Calculate();
+      System.out
+          .println("Sum of 2 and 3 is " + Sum.sum(2, 3) + ". Average is " + Sum.ave((double)Sum.sum(2, 3), 2.0));
+      System.out
+          .println(
+              "Sum of 1 to 10 is " + Sum.atoz(1, 10) + ". Average is " + Sum.ave((double)Sum.atoz(1, 10), 10.0));
+      System.out
+          .println("Sum of odd of 1 to 10 " + Sum.odd(1, 10) + ". Sum of even is " + Sum.even(1,10));
     }
 }
